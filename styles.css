@@ -98,9 +98,11 @@ footer {
     margin: auto;
 }
 
+/* Media Queries for Responsive Design */
 @media (max-width: 768px) {
     header {
         height: 70vh;
+        padding: 20px; /* Mengatur ulang padding untuk layar kecil */
     }
 
     .hero-content h1 {
@@ -109,5 +111,18 @@ footer {
 
     .cta-buttons .cta-button {
         max-width: 80%;
+    }
+
+    .services-container, .reasons-container {
+        grid-template-columns: 1fr; /* Membuat kolom tunggal untuk layar kecil */
+        gap: 15px; /* Kurangi jarak antar elemen */
+    }
+
+    #services, #why-choose-us, #promo, #contact {
+        padding: 30px 15px; /* Kurangi padding untuk layar kecil */
+    }
+
+    .service, .reason {
+        padding: 15px; /* Kurangi padding elemen untuk layar kecil */
     }
 }
