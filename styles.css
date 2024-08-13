@@ -25,7 +25,7 @@ header {
     text-align: center;
     color: #fff;
     padding: 20px; /* Tambahkan padding atas dan bawah */
-    margin-bottom: 50px; /* Tambahkan margin bawah untuk menghindari tumpang tindih */
+    margin-bottom: 100px; /* Tambahkan margin bawah untuk menghindari tumpang tindih */
 }
 
 .hero-content {
